@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Course</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Add New Course</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">My Courses</a></li>
+            <li><a href="add-courses.html">Add Course</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Add Course</h2>
+
+            <form>
+                <label for="C">Course Name</label><br>
+                <input id="C" type="text" name="course-name" required><br><br>
+
+                <label for="I">Instructor</label><br>
+                <input id="I" type="text" name="instractor" required><br><br>
+
+                <label for="H">Credit Hours</label><br>
+                <input id="H" type="number" name="hours"
+                min="1" max="3" required><br><br>
+                
+                <label for="N">Note</label><br>
+                <textarea id="N" name="notes" placeholder="Test text"
+                rows="2" cols="20"
+                ></textarea><br><br>
+
+                <input type="submit" value="Add Course">
+                <input type="reset">
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
+
+</body>
+</html>
